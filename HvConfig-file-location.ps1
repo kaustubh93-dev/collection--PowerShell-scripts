@@ -4,7 +4,7 @@
 Import-Module Hyper-V
 
 # Set the default path for the VM location
-#Set-VMHost -VirtualMachinePath 'C:\ClusterStorage\Volume2'
+Set-VMHost -VirtualMachinePath 'C:\ClusterStorage\Volume2'
 
 # Define a function to recursively find files with a specific extension
 function Find-Files($path, $extension) {
